@@ -1,7 +1,7 @@
 n,m=input().split()
 n,m=int(n),int(m)
 for i in range(n+1,m):
-    if (i<m-1):
+    if (i<m-2):
         k=' '
     else:
         k=''
